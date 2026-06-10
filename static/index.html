@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d1f1a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="style.css" />
+  <title>BLANI · Darija Recorder</title>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      BLAN<span class="accent">I</span>
+      <span class="brandSub">Darija Recorder</span>
+    </div>
+    <div class="progressRow">
+      <span class="progressText" id="progressText">0 / 0 recorded</span>
+      <div class="progressBar">
+        <div class="progressFill" id="progressFill"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div class="stageHeader">
+      <div class="counter">
+        Script <strong id="counterCurrent">—</strong>
+        of <span id="counterTotal">—</span>
+      </div>
+      <div class="tags">
+        <span class="tag" id="tagDomain">—</span>
+        <span class="tag" id="tagLength">—</span>
+      </div>
+    </div>
+
+    <section class="scriptCard" id="scriptCard">
+      <div class="loading">Loading scripts…</div>
+    </section>
+
+    <section class="controls">
+      <div class="speakerRow">
+        <label class="speakerLabel" for="speakerInput">Speaker</label>
+        <input id="speakerInput" class="speakerInput" type="text"
+               placeholder="your name" maxlength="32" />
+      </div>
+
+      <button id="recordBtn" class="recordBtn" type="button">
+        <span class="recordDot"></span>
+        <span class="recordLabel">Tap to Record</span>
+      </button>
+
+      <div class="timer" id="timer">00:00</div>
+
+      <audio id="playback" controls hidden></audio>
+
+      <div class="actions">
+        <button id="skipBtn"  class="actBtn actSecondary" type="button">Skip</button>
+        <button id="redoBtn"  class="actBtn actSecondary" type="button" hidden>Re-record</button>
+        <button id="saveBtn"  class="actBtn actPrimary"   type="button" hidden>Save & Next</button>
+      </div>
+
+      <div class="status" id="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <nav class="bottomNav">
+    <button id="prevBtn" class="navBtn" type="button">← Prev</button>
+    <button id="nextBtn" class="navBtn" type="button">Next →</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

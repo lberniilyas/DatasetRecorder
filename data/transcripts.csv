@@ -1,0 +1,9 @@
+id,audio_filename,transcript_arabic,transcript_latin,english,length,domain,speaker_id,duration_seconds,recorded_at,notes
+s001,s001_ilyas.wav,بغيت أوتيل رخيص ف فاس,bghit otel rkhis f fes,I want a cheap hotel in Fes,medium,hotel_search,ilyas,6.24,2026-05-22T20:31:17Z,
+s002,s002_ILYAS.wav,عافاك شي أوتيل زوين قريب للمدينة,3afak shi otel zwin qrib l mdina,"Please, a nice hotel near the medina",medium,hotel_search,ILYAS,5.32,2026-05-22T22:59:09Z,
+s003,s003_ILYAS.wav,كنقلب على hotel ب piscine ف مراكش,kanqleb 3la hotel b piscine f marrakech,I'm looking for a hotel with a pool in Marrakech,medium,hotel_search,ILYAS,6.46,2026-05-22T22:59:23Z,
+s004,s004_ILYAS.wav,بغيت فندق 5 نجوم فكازا,bghit fondoq 5 njom f casa,I want a 5-star hotel in Casablanca,medium,hotel_search,ILYAS,4.6,2026-05-22T22:59:31Z,
+s005,s005_ILYAS.wav,شي أوتيل هادئ قريب للبحر فأكادير,shi otel hadi qrib l b7ar f agadir,A calm hotel near the sea in Agadir,medium,hotel_search,ILYAS,5.98,2026-05-22T22:59:41Z,
+s006,s006_ILYAS.wav,واش كاين أوتيل رخيص ف طنجة,wash kayn otel rkhis f tanja,Is there a cheap hotel in Tangier?,medium,hotel_search,ILYAS,5.74,2026-05-22T22:59:59Z,
+s008,s008_Ilyas.wav,نحتاج أوتيل مع الفطور ف الرباط,n7taj otel m3a lftor f rabat,I need a hotel with breakfast in Rabat,medium,hotel_search,Ilyas,3.75,2026-05-22T23:04:45Z,
+s009,s009_Ilyaslberni.wav,أوتيل زوين,otel zwin,A nice hotel,short,hotel_search,Ilyaslberni,5.27,2026-05-22T23:05:12Z,

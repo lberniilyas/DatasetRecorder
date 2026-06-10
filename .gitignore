@@ -1,0 +1,13 @@
+.venv
+*.venv
+ngrok.yml
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Ignore the .env file that contains sensitive information
+.env

@@ -1,0 +1,316 @@
+:root {
+  --ink: #0d1f1a;
+  --deep: #152e26;
+  --bone: #f4ecdb;
+  --mist: #a8b8a8;
+  --gold: #e8b04c;
+  --gold-light: #f3cf85;
+  --rust: #c46a2a;
+  --sage: #7ba382;
+  --border: rgba(232, 176, 76, 0.22);
+  --glass: rgba(244, 236, 219, 0.04);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  height: 100%;
+  background: var(--ink);
+  color: var(--bone);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button { cursor: pointer; font: inherit; color: inherit; background: none; border: none; }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  background: rgba(13,31,26,0.97);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.brand .accent { color: var(--gold); }
+.brandSub {
+  font-size: 0.55rem;
+  letter-spacing: 0.18em;
+  color: var(--mist);
+  font-weight: 400;
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.progressText {
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mist);
+  white-space: nowrap;
+}
+.progressBar {
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  position: relative;
+}
+.progressFill {
+  position: absolute;
+  inset: 0 100% 0 0;
+  background: var(--gold);
+  transition: right 0.4s ease;
+}
+
+.stage {
+  padding: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter {
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mist);
+}
+.counter strong {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--gold);
+  margin-right: 0.2rem;
+}
+
+.tags { display: flex; gap: 0.3rem; }
+.tag {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  font-size: 0.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mist);
+}
+
+.scriptCard {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  position: relative;
+}
+.scriptCard::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+}
+
+.loading {
+  font-size: 0.75rem;
+  color: var(--mist);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.scriptArabic {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  direction: rtl;
+  text-align: right;
+  color: var(--bone);
+}
+.scriptLatin {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--mist);
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+}
+.scriptEnglish {
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--mist);
+  opacity: 0.6;
+}
+
+.recordedBadge {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  padding: 0.2rem 0.55rem;
+  background: rgba(123,163,130,0.15);
+  border: 1px solid rgba(123,163,130,0.4);
+  color: var(--sage);
+  font-size: 0.5rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  padding-bottom: 5rem;
+}
+
+.speakerRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+}
+.speakerLabel {
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mist);
+  white-space: nowrap;
+}
+.speakerInput {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  background: var(--glass);
+  border: 1px solid var(--border);
+  color: var(--bone);
+  font-size: 0.85rem;
+  outline: none;
+}
+.speakerInput:focus { border-color: var(--gold); }
+
+.recordBtn {
+  width: 100%;
+  max-width: 300px;
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  background: var(--deep);
+  border: 1px solid var(--border);
+  color: var(--bone);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.recordDot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--rust);
+  flex-shrink: 0;
+}
+.recordBtn.recording {
+  background: rgba(196,106,42,0.15);
+  border-color: var(--rust);
+  color: var(--rust);
+}
+.recordBtn.recording .recordDot {
+  animation: blink 0.9s ease-in-out infinite;
+}
+@keyframes blink {
+  0%,100% { opacity:1; transform:scale(1); }
+  50% { opacity:0.35; transform:scale(0.7); }
+}
+
+.timer {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+}
+
+#playback { width: 100%; max-width: 300px; }
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 340px;
+}
+.actBtn {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--bone);
+  transition: all 0.2s;
+}
+.actBtn.actPrimary { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+.actBtn.actPrimary:hover { background: var(--gold-light); }
+.actBtn.actSecondary { color: var(--mist); }
+.actBtn.actSecondary:hover { border-color: var(--gold); color: var(--gold); }
+
+.status {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--mist);
+  min-height: 1.1rem;
+  text-align: center;
+}
+.status.statusOk { color: var(--sage); }
+.status.statusErr { color: var(--rust); }
+
+.bottomNav {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 10;
+  padding: 0.7rem 1rem;
+  background: rgba(13,31,26,0.97);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navBtn {
+  flex: 1;
+  padding: 0.7rem;
+  background: var(--glass);
+  border: 1px solid var(--border);
+  color: var(--bone);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.navBtn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }

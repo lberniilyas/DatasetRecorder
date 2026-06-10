@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s001",
+    "arabic": "بغيت أوتيل رخيص ف فاس",
+    "latin": "bghit otel rkhis f fes",
+    "english": "I want a cheap hotel in Fes",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s002",
+    "arabic": "عافاك شي أوتيل زوين قريب للمدينة",
+    "latin": "3afak shi otel zwin qrib l mdina",
+    "english": "Please, a nice hotel near the medina",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s003",
+    "arabic": "كنقلب على hotel ب piscine ف مراكش",
+    "latin": "kanqleb 3la hotel b piscine f marrakech",
+    "english": "I'm looking for a hotel with a pool in Marrakech",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s004",
+    "arabic": "بغيت فندق 5 نجوم فكازا",
+    "latin": "bghit fondoq 5 njom f casa",
+    "english": "I want a 5-star hotel in Casablanca",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s005",
+    "arabic": "شي أوتيل هادئ قريب للبحر فأكادير",
+    "latin": "shi otel hadi qrib l b7ar f agadir",
+    "english": "A calm hotel near the sea in Agadir",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s006",
+    "arabic": "واش كاين أوتيل رخيص ف طنجة",
+    "latin": "wash kayn otel rkhis f tanja",
+    "english": "Is there a cheap hotel in Tangier?",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s007",
+    "arabic": "بغيت hotel للويكاند ف شفشاون",
+    "latin": "bghit hotel l weekend f chefchaouen",
+    "english": "I want a hotel for the weekend in Chefchaouen",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s008",
+    "arabic": "نحتاج أوتيل مع الفطور ف الرباط",
+    "latin": "n7taj otel m3a lftor f rabat",
+    "english": "I need a hotel with breakfast in Rabat",
+    "length": "medium",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s009",
+    "arabic": "أوتيل زوين",
+    "latin": "otel zwin",
+    "english": "A nice hotel",
+    "length": "short",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s010",
+    "arabic": "بغيت hotel budget مزيان ف مكناس قريب للمحطة",
+    "latin": "bghit hotel budget mezyan f meknes qrib lma7atta",
+    "english": "I want a good budget hotel in Meknes near the station",
+    "length": "long",
+    "domain": "hotel_search"
+  },
+  {
+    "id": "s011",
+    "arabic": "عافاك شي شقة زوينة ف مراكش",
+    "latin": "3afak shi chouqa zwina f marrakech",
+    "english": "Please, a nice apartment in Marrakech",
+    "length": "medium",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s012",
+    "arabic": "كنقلب على رياض تقليدي ف فاس",
+    "latin": "kanqleb 3la riad taqlidi f fes",
+    "english": "I'm looking for a traditional riad in Fes",
+    "length": "medium",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s013",
+    "arabic": "بغيت شقة فيها wifi ف أكادير",
+    "latin": "bghit chouqa فيها wifi f agadir",
+    "english": "I want an apartment with Wi-Fi in Agadir",
+    "length": "medium",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s014",
+    "arabic": "شي رياض رخيص",
+    "latin": "shi riad rkhis",
+    "english": "A cheap riad",
+    "length": "short",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s015",
+    "arabic": "كنحتاج شقة كبيرة ل4 ديال الناس فالرباط",
+    "latin": "kan7taj chouqa kbira l 4 dyal ناس f rabat",
+    "english": "I need a big apartment for 4 people in Rabat",
+    "length": "long",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s016",
+    "arabic": "بغيت appartement قريب للبحر ف الصويرة",
+    "latin": "bghit appartement qrib l b7ar f swira",
+    "english": "I want an apartment near the sea in Essaouira",
+    "length": "medium",
+    "domain": "apartment_search"
+  },
+  {
+    "id": "s017",
+    "arabic": "نحتاج planning ل3 أيام ف مراكش",
+    "latin": "n7taj planning l 3 yam f marrakech",
+    "english": "I need a 3-day plan in Marrakech",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s018",
+    "arabic": "بغيت trip رخيصة لطنجة وشفشاون",
+    "latin": "bghit trip rkhisa l tanja w chefchaouen",
+    "english": "I want a cheap trip to Tangier and Chefchaouen",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s019",
+    "arabic": "عافاك بلاني ديال weekend ف إفران",
+    "latin": "3afak planning dyal weekend f ifrane",
+    "english": "Please, a weekend plan in Ifrane",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s020",
+    "arabic": "كنحتاج voyage ل5 أيام ب budget محدود",
+    "latin": "kan7taj voyage l 5 yam b budget ma7doud",
+    "english": "I need a 5-day trip with a limited budget",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s021",
+    "arabic": "بغيت بلانينغ عائلي ف أكادير هاد الصيف",
+    "latin": "bghit planning 3a2ili f agadir had sif",
+    "english": "I want a family plan in Agadir this summer",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s022",
+    "arabic": "نحتاج رحلة لورزازات مع أوتيل ونقل",
+    "latin": "n7taj r7la l ouarzazate m3a otel w naql",
+    "english": "I need a trip to Ouarzazate with hotel and transport",
+    "length": "medium",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s023",
+    "arabic": "بغيت برنامج سفر لسبوع فكازا ومراكش ب4000 درهم",
+    "latin": "bghit barnamaj safar lسبوع f casa w marrakech b 4000 dh",
+    "english": "I want a one-week travel plan in Casablanca and Marrakech for 4000 dirhams",
+    "length": "long",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s024",
+    "arabic": "trip لويكاند",
+    "latin": "trip l weekend",
+    "english": "A weekend trip",
+    "length": "short",
+    "domain": "trip_planning"
+  },
+  {
+    "id": "s025",
+    "arabic": "بدل ليا الأوتيل لواحد أرخص",
+    "latin": "bdel lia l otel l wa7ed arkhes",
+    "english": "Change the hotel to a cheaper one",
+    "length": "medium",
+    "domain": "modification"
+  },
+  {
+    "id": "s026",
+    "arabic": "بغيت نزيد نهار ف الرحلة",
+    "latin": "bghit nzid nhar f r7la",
+    "english": "I want to add one more day to the trip",
+    "length": "medium",
+    "domain": "modification"
+  },
+  {
+    "id": "s027",
+    "arabic": "غير المدينة من فاس لمراكش",
+    "latin": "ghir lmdina mn fes l marrakech",
+    "english": "Change the city from Fes to Marrakech",
+    "length": "medium",
+    "domain": "modification"
+  },
+  {
+    "id": "s028",
+    "arabic": "حيد الأوتيل الغالي",
+    "latin": "7yed l otel lghali",
+    "english": "Remove the expensive hotel",
+    "length": "short",
+    "domain": "modification"
+  },
+  {
+    "id": "s029",
+    "arabic": "بغيت نسافر فالعطلة الجاية",
+    "latin": "bghit nsafr f l3otla l jaya",
+    "english": "I want to travel next vacation",
+    "length": "medium",
+    "domain": "general_travel"
+  },
+  {
+    "id": "s030",
+    "arabic": "شنو أحسن مدينة للسياحة فالمغرب",
+    "latin": "shنو a7san mdina l السياحة f المغرب",
+    "english": "What is the best city for tourism in Morocco?",
+    "length": "medium",
+    "domain": "general_travel"
+  }
+]
