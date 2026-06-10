@@ -9,5 +9,4 @@ __pycache__/
 .vscode/
 *.log
 
-# Ignore the .env file that contains sensitive information
 .env
